@@ -1,0 +1,39 @@
+variables:
+  script:
+	BUILDSTEPS_GIT: git@github.com:stevebresnick/buildstepstest.git
+	YANKEES_MODULES: docroot/sites/STPYankees/modules
+	YANKEES_GIT_URL: git@github.com:stevebresnick/yankees_invoice.git
+	DOLPHINS_MODULES: docroot/sites/STPDolphins/modules
+	DOLPHINS_GIT_URL: git@github.com:stevebresnick/dolphins_invoice.git
+
+ssh-keys:
+  github:
+	secure: 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
+
+build-steps:
+  - start-clean:
+  	type: script
+  	script:
+    	- rm -rf %BUILD_DIR%/docroot
+  - build:
+  	type: make
+  	makefile: iomedia_stp_core.make
+  - install-private-module:
+  	type: script
+  	script:
+    	- git clone %YANKEES_GIT_URL% %YANKEES_MODULES%/yankees_invoice
+    	- git remote add bs %BUILDSTEPS_GIT%
+  - install-private-module:
+  	type: script
+  	script:
+    	- git clone %DOLPHINS_GIT_URL% %DOLPHINS_MODULES%/dolphins_invoice
+    	- git remote add bs %BUILDSTEPS_GIT%
+  - post-build:
+    type: script
+    script:
+        - git init
+        - git add *
+        - git commit -m 'committed via buildsteps'
+        - git remote add origin git@github.com:stevebresnick/buildstepstest.git
+        - git push -u origin master
+        - git push bs master
